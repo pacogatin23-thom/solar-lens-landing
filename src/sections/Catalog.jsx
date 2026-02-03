@@ -6,9 +6,9 @@ export default function Catalog() {
     <section id="catalogo" className="section">
       <div className="container">
         <div className="section__head">
-          <h2>Catálogo destacado</h2>
+          <h2>Modelos que salen siempre</h2>
           <p className="muted">
-            5 modelos (marcas reales) con imágenes y CTA directo a WhatsApp.
+            No es relleno. Son los lentes que la gente realmente elige.
           </p>
         </div>
 

@@ -21,7 +21,9 @@ export default function App() {
       <footer className="footer">
         <div className="container footer__inner">
           <span>© {new Date().getFullYear()} Solar Lens</span>
-          <span className="note">Demo portfolio: marcas reales, catálogo de ejemplo.</span>
+          <span className="note">
+            Demo de catálogo — hecho para mostrar cómo vendemos por WhatsApp.
+          </span>
           <a className="muted" href="#top">Volver arriba</a>
         </div>
       </footer>

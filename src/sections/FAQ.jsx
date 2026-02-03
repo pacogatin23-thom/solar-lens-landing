@@ -3,29 +3,27 @@ export default function FAQ() {
     <section id="faq" className="section">
       <div className="container">
         <div className="section__head">
-          <h2>Preguntas frecuentes</h2>
-          <p className="muted">Respuestas cortas listas para web/WhatsApp (demo).</p>
+          <h2>Lo que siempre preguntan</h2>
+          <p className="muted">Corto, al pie, y sin chamuyo.</p>
         </div>
 
         <div className="grid">
           <div className="box">
-            <h3>¿Son polarizados?</h3>
+            <h3>¿Son originales?</h3>
             <p className="muted">
-              Algunos modelos sí. Consultá disponibilidad por WhatsApp.
+              Este es un catálogo demo para mostrar cómo laburamos.
             </p>
           </div>
-
+          <div className="box">
+            <h3>¿Cómo compro?</h3>
+            <p className="muted">
+              Elegís un modelo y hablás directo por WhatsApp.
+            </p>
+          </div>
           <div className="box">
             <h3>¿Hacen envíos?</h3>
             <p className="muted">
-              Sí, coordinamos envío según tu zona y costo del correo/mensajería.
-            </p>
-          </div>
-
-          <div className="box">
-            <h3>¿Qué incluye la compra?</h3>
-            <p className="muted">
-              Lente + estuche (según disponibilidad). Confirmamos todo antes de cerrar.
+              Sí, se coordinan según la zona. Te pasamos todo antes de cerrar.
             </p>
           </div>
         </div>

@@ -7,37 +7,39 @@ export default function Hero() {
     <section className="hero" id="top">
       <div className="container hero__inner">
         <div className="hero__text">
-          <span className="pill">Envíos • Cambios • Compra por WhatsApp</span>
-          <h1>Lentes de sol con diseño, comodidad y estilo</h1>
+          <span className="pill">Envíos • Cambios • Comprá sin complicarte</span>
+
+          <h1>Lentes chetos para usar todos los días</h1>
+
           <p className="muted">
-            Catálogo demo para mostrar cómo trabajamos landings con productos + CTA directa a WhatsApp.
-            Marcas reales, catálogo de ejemplo.
+            Elegí el modelo, preguntá por WhatsApp y listo. Sin vueltas, sin carrito,
+            como se compra de verdad.
           </p>
 
           <div className="hero__cta">
-            <a className="btn" href="#catalogo">Ver catálogo</a>
-            <a className="btn btn--ghost" href="#contacto">Hablar con un asesor</a>
+            <a className="btn" href="#catalogo">Ver los modelos</a>
+            <a className="btn btn--ghost" href="#contacto">Hablar por WhatsApp</a>
           </div>
 
           <div className="stats">
             <div className="stat">
-              <strong>WhatsApp</strong>
-              <span>CTA 1 click</span>
+              <strong>Buena facha</strong>
+              <span>modelos que se usan</span>
             </div>
             <div className="stat">
-              <strong>Diseño</strong>
-              <span>responsive</span>
+              <strong>Cómodos posta</strong>
+              <span>para todo el día</span>
             </div>
             <div className="stat">
-              <strong>Catálogo</strong>
-              <span>con imágenes</span>
+              <strong>WhatsApp directo</strong>
+              <span>sin registro raro</span>
             </div>
           </div>
         </div>
 
         <aside className="card">
           <h3>Compra rápida</h3>
-          <p className="muted">Tocás una marca y se abre WhatsApp con el mensaje listo.</p>
+          <p className="muted">Elegí una marca y se abre WhatsApp con el mensaje listo.</p>
 
           <div className="chips">
             {[
@@ -67,12 +69,12 @@ export default function Hero() {
             className="btn btn--full"
             target="_blank"
             rel="noopener"
-            href={wa("Hola! Quiero consultar lentes de sol. ¿Qué modelos tienen en stock?")}
+            href={wa("Hola! ¿Qué modelos tenés en stock? Quiero precio y envío.")}
           >
-            Comprar por WhatsApp
+            Escribir por WhatsApp
           </a>
 
-          <p className="small muted">Tip: cambiás el número real y listo.</p>
+          <p className="small muted">Tip: cambiás el número y queda listo para el cliente.</p>
         </aside>
       </div>
     </section>

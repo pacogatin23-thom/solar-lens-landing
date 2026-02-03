@@ -21,18 +21,18 @@ export default function Contact() {
     <section id="contacto" className="section section--alt">
       <div className="container contact">
         <div>
-          <h2>Comprar / Consultar</h2>
-          <p className="muted">Completás esto y se abre WhatsApp con el mensaje listo.</p>
+          <h2>¿Te gustó alguno?</h2>
+          <p className="muted">
+            Escribinos y vemos stock, precio y envío. Rápido y sin compromiso.
+          </p>
 
           <ul className="list">
             <li>📍 Neuquén y alrededores (editable)</li>
-            <li>🕒 Lun a Sáb (editable)</li>
-            <li>📲 WhatsApp (1 click)</li>
+            <li>🕒 Horarios a coordinar (editable)</li>
+            <li>📲 WhatsApp directo</li>
           </ul>
 
-          <p className="note">
-            *Demo portfolio: reemplazás precios/stock cuando tengas los reales.
-          </p>
+          <p className="note">*Demo portfolio: se ajusta a la operación real del cliente.</p>
         </div>
 
         <form className="form" onSubmit={onSubmit}>
@@ -43,25 +43,18 @@ export default function Contact() {
 
           <label>
             Modelo que te gustó
-            <input
-              name="modelo"
-              type="text"
-              placeholder="Ej: Ray-Ban Original Wayfarer"
-            />
+            <input name="modelo" type="text" placeholder="Ej: Ray-Ban Original Wayfarer" />
           </label>
 
           <label>
             Mensaje
-            <textarea
-              name="mensaje"
-              rows="4"
-              placeholder="Quiero consultar precio, stock y envío..."
-            />
+            <textarea name="mensaje" rows="4" placeholder="Quiero consultar precio, stock y envío..." />
           </label>
 
           <button className="btn btn--full" type="submit">
             Enviar por WhatsApp
           </button>
+
           <p className="small muted">Se abre WhatsApp con tu mensaje listo.</p>
         </form>
       </div>

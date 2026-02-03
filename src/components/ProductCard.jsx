@@ -6,7 +6,9 @@ export default function ProductCard({ p }) {
   const fullModel = `${p.brand} ${p.model}`;
 
   const onBuy = () => {
-    const msg = `Hola! Quiero consultar stock y precio. Modelo: ${fullModel}. Precio visto: ${p.price}. ¿Me confirmás envío y medios de pago?`;
+    const msg =
+      `Hola! Quiero consultar stock y precio. Modelo: ${fullModel}. ` +
+      `Precio visto: ${p.price}. ¿Me confirmás envío y medios de pago?`;
     window.open(wa(msg), "_blank", "noopener");
   };
 
@@ -35,7 +37,7 @@ export default function ProductCard({ p }) {
           ))}
         </div>
 
-        <p className="note">*Demo portfolio (catálogo de ejemplo).</p>
+        <p className="note">*Catálogo demo. Stock y precio final por WhatsApp.</p>
       </div>
 
       <div className="product__footer">
